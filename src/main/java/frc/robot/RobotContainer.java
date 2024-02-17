@@ -121,11 +121,11 @@ public class RobotContainer
    *
    * @return the command to run in autonomous
    */
-  // public Command getAutonomousCommand()
-  // {
-  //   // An example command will be run in autonomous
-  //   return drivebase.getAutonomousCommand("New Path", true);
-  // }
+   public Command getAutonomousCommand()
+   {
+     // An example command will be run in autonomous
+     return drivebase.getAutonomousCommand("New Path", false);
+   }
 
   public void runAutonomous() {
     drivebase.drive(new Translation2d(0 , 1),

@@ -40,7 +40,7 @@ import swervelib.telemetry.Alert;
 import swervelib.telemetry.Alert.AlertType;
 import swervelib.telemetry.SwerveDriveTelemetry;
 import swervelib.telemetry.SwerveDriveTelemetry.TelemetryVerbosity;
-
+//
 /**
  * Swerve Drive class representing and controlling the swerve drive.
  */
@@ -237,7 +237,7 @@ public class SwerveDrive
 
     checkIfTunerXCompatible();
   }
-
+//
   /**
    * Check all components to ensure that Tuner X Swerve Generator is recommended instead.
    */

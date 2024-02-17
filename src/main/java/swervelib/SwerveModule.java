@@ -393,7 +393,7 @@ public class SwerveModule
   {
     return driveMotor;
   }
-
+//
   /**
    * Get the {@link SwerveAbsoluteEncoder} for the {@link SwerveModule}.
    *
@@ -403,7 +403,7 @@ public class SwerveModule
   {
     return absoluteEncoder;
   }
-
+//
   /**
    * Fetch the {@link SwerveModuleConfiguration} for the {@link SwerveModule} with the parsed configurations.
    *
